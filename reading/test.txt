@@ -1,0 +1,1 @@
+On va lire se fichier et compter les caaractères
