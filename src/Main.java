@@ -38,7 +38,10 @@ public class Main {
         rectangle.affiche();
         System.out.println(square.calculateSurface());
         System.out.println(rectangle.calculateSurface());
-
+        Singleton singletonFOO = Singleton.getInstance("FOO");
+        Singleton singletonBAR = Singleton.getInstance("BAR");
+        System.out.println(singletonFOO.value);
+        System.out.println(singletonBAR.value);
 
     }
 
