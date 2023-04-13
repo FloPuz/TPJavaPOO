@@ -1,5 +1,5 @@
 public final class Singleton {
-    private static Singleton instance;
+    private static Singleton instance = null;
     public String value;
     private Singleton(String value) {
         this.value = value;
